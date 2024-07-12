@@ -1,5 +1,3 @@
-from keras.utils import to_categorical
-
 # streamlit_app.py
 
 import streamlit as st
@@ -10,6 +8,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import os
 import tensorflow as tf
+from keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
